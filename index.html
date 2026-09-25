@@ -4,8 +4,8 @@
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <meta name="format-detection" content="telephone=no"/>
-<meta name="document-date" content="2026-09-24"/>
-<meta name="document-version" content="V2.1"/>
+<meta name="document-date" content="2026-09-25"/>
+<meta name="document-version" content="V2.2"/>
 <title>MANN+HUMMEL — Collision Agent</title>
 <style>
 :root{
@@ -405,6 +405,13 @@ button,.expert{-webkit-tap-highlight-color:transparent;touch-action:manipulation
 .report-fixed-challenge{margin-top:18px;padding:19px 22px;background:#E8F4ED;border:1px solid rgba(0,130,60,.18);border-radius:18px}
 .report-fixed-challenge p{color:#000;font-size:15px;line-height:1.5;margin:7px 0 0;font-weight:700}
 @media print{.report-fixed-challenge{break-inside:avoid}}
+
+/* V2.2: centered disclaimer with complete text. */
+.simulation-banner{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;text-align:center;padding:20px 28px}
+.simulation-banner strong,.report-simulation-note strong{display:block;color:#00823C;font-size:12px;font-weight:900;letter-spacing:.14em;margin:0}
+.simulation-banner p,.report-simulation-note p{max-width:960px;margin:0;color:#000;font-size:13px;line-height:1.6}
+.report-simulation-note{border:2px solid #00823C;border-radius:16px;padding:20px 24px;text-align:center;display:flex;flex-direction:column;align-items:center;gap:8px}
+@media(max-width:800px){.simulation-banner{display:flex;padding:18px}}
 </style>
 </head>
 <body>
@@ -417,7 +424,7 @@ button,.expert{-webkit-tap-highlight-color:transparent;touch-action:manipulation
 <div id="copyToast" class="copy-toast" role="status" aria-live="polite">Prompt copied</div>
 
 <section class="hero">
-  <div class="simulation-banner" role="note"><strong>SIMULATED EXERCISE</strong><span>The viewpoints, ideas and dialogue below are fictional illustrations. They do not represent what the named individuals actually said or necessarily believe.</span></div>
+  <div class="simulation-banner" role="note" aria-label="Disclaimer"><strong>DISCLAIMER</strong><p>This website contains AI-generated content created for demonstration purposes. The viewpoints, ideas, analyses, and dialogue presented are fictional illustrations and do not represent actual statements, beliefs, or positions of any referenced individual or of MANN+HUMMEL. Content is provided solely for illustrative purposes and should not be considered factual information or used as the basis for business or strategic decisions.</p></div>
   <div class="hero-grid">
     <div>
       
@@ -521,7 +528,7 @@ button,.expert{-webkit-tap-highlight-color:transparent;touch-action:manipulation
 <header class="report-hero"><span class="report-eyebrow"><span class="dot"></span>Collision Report — i2m Futures Innovation</span>
 <h2 class="report-main-title" contenteditable="true">From Passive Filter to Intelligent Outcome Service</h2>
 <p class="report-lead" contenteditable="true">Seven perspectives challenge one fixed industrial filtration idea.</p>
-<div class="report-meta">MANN+HUMMEL · 24 September 2026 · V2.1</div><div class="report-fixed-challenge"><div class="report-kicker">Fixed challenge</div><p>How might we turn industrial filtration from a passive component into an intelligent service that predicts performance, reduces energy use and guarantees customer outcomes?</p></div><div class="report-simulation-note"><strong>SIMULATED EXERCISE</strong> The viewpoints, ideas and dialogue are fictional illustrations. They do not represent what the named individuals actually said or necessarily believe.</div></header>
+<div class="report-meta">MANN+HUMMEL · 25 September 2026 · V2.2</div><div class="report-fixed-challenge"><div class="report-kicker">Fixed challenge</div><p>How might we turn industrial filtration from a passive component into an intelligent service that predicts performance, reduces energy use and guarantees customer outcomes?</p></div><div class="report-simulation-note" role="note" aria-label="Disclaimer"><strong>DISCLAIMER</strong><p>This website contains AI-generated content created for demonstration purposes. The viewpoints, ideas, analyses, and dialogue presented are fictional illustrations and do not represent actual statements, beliefs, or positions of any referenced individual or of MANN+HUMMEL. Content is provided solely for illustrative purposes and should not be considered factual information or used as the basis for business or strategic decisions.</p></div></header>
 <div class="report-body">
 <div class="report-section-intro"><div><div class="report-step"><span class="bar"></span>Step 01 / 05</div><h2>Challenge Framing</h2></div><p>The fixed filtration challenge, operator pains and desired gains.</p></div>
 <div class="report-jtbd"><div class="report-kicker">Job-to-be-Done</div><p contenteditable="true">When industrial operators rely on filtration-critical processes, they want predictable filtration performance with minimal energy use and maintenance attention, so they can protect uptime, quality and operating cost without constantly managing the filtration system.</p></div>
@@ -563,7 +570,7 @@ button,.expert{-webkit-tap-highlight-color:transparent;touch-action:manipulation
 <div class="report-experiment"><span class="num">2</span><p contenteditable="true">Build the smallest closed-loop demonstrator linking one sensor signal, one filtration parameter and one customer KPI.</p></div>
 <div class="report-experiment"><span class="num">3</span><p contenteditable="true">Offer three customers a low-risk pilot framed around a guaranteed KPI and record willingness to pay, objections and proof requirements.</p></div>
 </div></div></div></div></div>
-<footer class="report-footer">MANN+HUMMEL · i2m Collision Agent · 24 September 2026 · V2.1<br>Simulated creative exercise. The viewpoints and dialogue are illustrative; they are not actual statements or verified personal opinions of the named individuals.</footer>
+<footer class="report-footer">MANN+HUMMEL · i2m Collision Agent · 25 September 2026 · V2.2<br>See the full disclaimer at the top of this report.</footer>
 </div></div>
   </div>
 
